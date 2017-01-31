@@ -1,0 +1,41 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: arial, helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 18px;
+	margin: 20px;
+}
+
+img {
+	max-width: 50%;
+	height: auto;
+}
+
+#desktop {
+	width: 500px;
+	padding: 40px;
+	border: 1px solid red;
+
+}
+
+
+#phone {
+	width: 500px;
+	padding: 40px;	
+	border: 1px solid blue;
+
+}
+
+.sender {
+	text-align: left;
+}
+
+.receiver {
+	text-align: right;
+}
