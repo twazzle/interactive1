@@ -1,0 +1,86 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: arial, helvetica, sans-serif;
+}
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 20px;
+	color: white;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#topcompanies{
+	width: 100%;
+	height: 100%;
+	padding: 60px;
+	background: blue;
+
+}
+
+
+#othercompanies {
+	width: 500px;
+	padding: 60px;	
+	border: 5px solid red;
+
+}
+
+#fb {
+	margin-left: 50px;
+}
+.google {
+	text-align: left;
+	width: 200px;
+	float: right;
+}
+
+.facebook {
+	text-align: right;
+width: 200px;
+}
+
+#img1 {
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
+
+/*.google {
+position: fixed;
+bottom: 50px;
+right: 20px;
+}
+
+.facebook {
+position: absolute;
+bottom: 100px;
+right: 300px;
+display: inline-block;
+}*/
+
+
+.left-align {float:left;}
+
+.youtube {
+position: fixed;
+bottom: 500px;
+right: 300px;
+}
+
+
+
+.right-align {float:right;}
+}
