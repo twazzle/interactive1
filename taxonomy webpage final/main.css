@@ -1,0 +1,428 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {font-family: arial, helvetica, sans-serif;
+}
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.button {
+	float: left;
+}
+
+#time{
+	width: 250px;
+	height: 250px;
+	background: url('img/time.png');
+	background-size: cover;	
+}
+
+#time:hover{
+	background: url('img/time logo.png');
+	background-size: 250px 250px; 
+	 background-repeat: no-repeat;
+	color: blue;
+	}
+
+#google{
+	width: 400px;
+	height: 400px;
+	background: url('img/google.png');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#google:hover{
+	background: url('img/google logo.png');
+	background-size: 400px 400px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#google2{
+	width: 400px;
+	height: 400px;
+	background: url('img/google2.png');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#google2:hover{
+	background: url('img/google logo.png');
+	background-size: 400px 400px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#facebook{
+	width: 400px;
+	height: 400px;
+	background: url('img/facebook.png');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#facebook:hover{
+	background: url('img/facebook logo.png');
+	background-size: 400px 400px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#facebook2{
+	width: 400px;
+	height: 400px;
+	background: url('img/facebook.jpeg');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#facebook2:hover{
+	background: url('img/facebook logo.png');
+	background-size: 400px 400px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#runtastic{
+	width: 150px;
+	height: 150px;
+	background: url('img/runtastic.png');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 100px;
+
+	color: transparent;
+}
+
+#runtastic:hover{
+	background: url('img/runtastic logo.png');
+	background-size: 150px 150px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#path{
+	width: 100px;
+	height: 100px;
+	background: url('img/path.png');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 100px;
+
+	color: transparent;
+}
+
+#path:hover{
+	background: url('img/path logo.png');
+	background-size: 100px 100px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#authenticjobs{
+	width: 50px;
+	height: 50px;
+	background: url('img/authenticjobs.png');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 100px;
+
+	color: transparent;
+}
+
+#authenticjobs:hover{
+	background: url('img/authenticjobs logo.png');
+	background-size: 50px 50px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#google3{
+	width: 400px;
+	height: 400px;
+	background: url('img/google3.png');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#google3:hover{
+	background: url('img/google logo.png');
+	background-size: 400px 400px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#mccollcenter{
+	width: 50px;
+	height: 50px;
+	background: url('img/mccollcenter.jpeg');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#mccollcenter:hover{
+	background: url('img/mccollcenterlogo.jpg');
+	background-size: 50px 50px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#cox{
+	width: 200px;
+	height: 200px;
+	background: url('img/cox.jpeg');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#cox:hover{
+	background: url('img/cox logo.png');
+	background-size: 200px 200px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#storybox{
+	width: 50px;
+	height: 50px;
+	background: url('img/storybox.jpg');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#storybox:hover{
+	background: url('img/story box logo.png');
+	background-size: 50px 50px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#target{
+	width: 120px;
+	height: 120px;
+	background: url('img/target.jpg');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#target:hover{
+	background: url('img/target logo.png');
+	background-size: 120px 120px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#yahoo{
+	width: 250px;
+	height: 250px;
+	background: url('img/yahoo.jpg');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#yahoo:hover{
+	background: url('img/yahoo logo.png');
+	background-size: 250px 250px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#webdesignerhub{
+	width: 100px;
+	height: 100px;
+	background: url('img/webdesigner hub.jpg');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#webdesignerhub:hover{
+	background: url('img/wdh logo.png');
+	background-size: 100px 100px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#google4{
+	width: 400px;
+	height: 400px;
+	background: url('img/google4.png');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#google4:hover{
+	background: url('img/google logo.png');
+	background-size: 400px 400px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#facebook3{
+	width: 400px;
+	height: 400px;
+	background: url('img/facebook3.png');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#facebook3:hover{
+	background: url('img/facebook logo.png');
+	background-size: 400px 400px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#firefox{
+	width: 300px;
+	height: 300px;
+	background: url('img/firefox.png');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#firefox:hover{
+	background: url('img/firefox logo.png');
+	background-size: 300px 300px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#microsoft{
+	width: 350px;
+	height: 350px;
+	background: url('img/microsoft copy.jpg');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#microsoft:hover{
+	background: url('img/microsoft logo.png');
+	background-size: 350px 350px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#microsoft2{
+	width: 400px;
+	height: 400px;
+	background: url('img/microsoft copy 2.jpg');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#microsoft2:hover{
+	background: url('img/microsoft logo.png');
+	background-size: 400px 400px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#nbcnews{
+	width: 150px;
+	height: 150px;
+	background: url('img/nbc news.png');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#nbcnews:hover{
+	background: url('img/nbc news logo.png');
+	background-size: 150px 150px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}
+
+#microsoft3{
+	width: 400px;
+	height: 400px;
+	background: url('img/microsoft copy 3.jpg');
+	background-size: cover;
+
+	text-align: center;
+	line-height: 400px;
+
+	color: transparent;
+}
+
+#microsoft3:hover{
+	background: url('img/microsoft logo.png');
+	background-size: 400px 400px; 
+	 background-repeat: no-repeat;
+	color: blue;
+}

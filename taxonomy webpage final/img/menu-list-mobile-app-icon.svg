@@ -1,0 +1,30 @@
+<!--?xml version="1.0" standalone="no"?--><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000" preserveAspectRatio="xMidYMid meet">
+<metadata>
+  <rdf:rdf xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:description dc:title="menu list mobile app" dc:publisher="Hiox" dc:date="2015-03-14" dc:format="image/svg+xml" dc:language="en">
+      <dc:creator>
+        <rdf:bag>
+          <rdf:li>svgimages.com</rdf:li>
+        </rdf:bag>
+      </dc:creator>
+    </rdf:description>
+  </rdf:rdf>
+</metadata>
+<g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="#050505" stroke="none">
+<path d="M505 2487 c-3 -7 -4 -118 -3 -247 l3 -235 248 -3 247 -2 -2 247 -3
+248 -243 3 c-191 2 -244 0 -247 -11z" id="node1" class="node"></path>
+<path d="M1257 2493 c-4 -3 -7 -116 -7 -250 l0 -243 623 2 622 3 0 245 0 245
+-616 3 c-338 1 -619 -1 -622 -5z" id="node2" class="node"></path>
+<path d="M504 1737 c-2 -7 -3 -118 -2 -247 l3 -235 245 0 245 0 3 248 2 247
+-245 0 c-189 0 -247 -3 -251 -13z" id="node3" class="node"></path>
+<path d="M1255 1737 c-3 -7 -4 -118 -3 -247 l3 -235 620 0 620 0 0 245 0 245
+-618 3 c-494 2 -619 0 -622 -11z" id="node4" class="node"></path>
+<path d="M504 987 c-2 -7 -3 -118 -2 -247 l3 -235 245 0 245 0 3 248 2 247
+-245 0 c-189 0 -247 -3 -251 -13z" id="node5" class="node"></path>
+<path d="M1255 987 c-3 -7 -4 -118 -3 -247 l3 -235 620 0 620 0 0 245 0 245
+-618 3 c-494 2 -619 0 -622 -11z" id="node6" class="node"></path>
+</g>
+<g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)" fill="#BBBBBB" stroke="none">
+
+</g>
+</svg>
