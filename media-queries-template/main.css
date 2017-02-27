@@ -1,0 +1,51 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	background: black;
+}
+
+#desktop{
+	opacity: 100;
+	color: white;
+	font-size: 400px;
+}
+
+#tablet, #mobile {
+	opacity: 0;
+}
+
+/* iPad */
+@media (min-width: 668px) and (max-width: 1024px) { 
+	body {
+		background: pink;
+		font-size: 300px; color: white;
+
+
+	}
+
+	#tablet{
+		opacity: 100;
+	}
+
+	#desktop {
+		opacity: 100;
+	}
+
+}
+
+/* iPhone 6*/
+@media (min-width: 375px) and (max-width: 667px) { 
+	
+	body {
+		background: white;
+		font-size: 300px;
+	}
+
+	#mobile{
+		opacity: 100;
+	}
+
+	#desktop, #tablet {
+		opacity: 100;
+	}
+}
