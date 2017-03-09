@@ -1,0 +1,274 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+	text-align: left;
+	font-family: Tahoma;
+	font-size: 200%;
+	background-color: #3B5998;
+	color: white;
+}
+
+/* diagram title */
+
+h1#title {
+	position: fixed;
+	top: 20px;
+	left: 50px;
+	/*transform: rotate(90deg);*/
+	transform-origin: top left;
+}
+
+/* main structure */
+
+#container {
+	padding: 100px 0px;
+	width: 700px;
+	margin: auto;
+}
+
+/* diagram area */
+
+#diagram {
+}
+
+#diagram img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.8);
+	height: auto; 
+    width: auto; 
+    max-width: 1300px; 
+    max-height: 1300px;
+    background: grey;
+
+
+	/* apply animations to elements */
+
+	/* animation-name: fadein;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+
+	/* set opacity to 0 by default */
+	/* opacity: 0; */
+
+}
+
+#diagram2{
+	display: inline-block; 
+	vertical-align: middle; 
+	position:absolute;
+	top: 150px; 
+	left: 9px;
+    width: 367px; 
+    background: red;
+}
+
+#diagram2 #phone {
+
+	width: 100%;
+	height: auto;
+	/* apply animations to elements */
+
+	/*animation-name: fadein;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+
+	/* set opacity to 0 by default */
+	/*opacity: 0; */
+
+}
+
+#diagram:hover + div #phone2{
+	opacity: .5;
+}
+
+#diagram2:hover + div{
+	opacity: .5;
+}
+
+#diagram2 #phone2 {
+	width: 338px;
+	position: absolute;
+	top: 340px;
+	left: 16px;
+}
+
+
+#diagram3{
+}
+
+#diagram3 img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.8);
+	position:relative;
+	top: -395px; left: 672px;
+	height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+
+	/* apply animations to elements */
+
+	/*animation-name: fadein;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+
+	/* set opacity to 0 by default */
+	/*opacity: 0;*/
+
+}
+/*
+#diagram4{
+}
+
+#diagram4 img {
+	display: inline-block; 
+	vertical-align: middle; 
+	transform: scale(.8);
+	position:relative;
+	top: -513px; left: -212px;
+	height: auto; 
+    width: auto; 
+    max-width: 325px; 
+    max-height: 325px;
+
+	/* apply animations to elements */
+
+	/*animation-name: fadein;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+
+	/* set opacity to 0 by default */
+	/*opacity: 0;*/
+
+}
+*/
+/* delay animations */
+
+#webpage {
+	animation-delay: 500ms;	
+}
+
+#phone {
+	animation-delay: 750ms;	
+}
+
+
+/* interactive layout */
+
+ /*#headline {
+	font-size: 44px;
+	line-height: 55px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	position: relative;
+	transition: all 500ms ease;
+}
+
+#subhead {
+	font-size: 29px;
+	line-height: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	position: relative;*/
+}
+
+#paragraph {
+	font-size: 23px;
+	line-height: 34px;
+	position: relative;
+}
+
+/*#image {
+	height: 400px;
+	width: 100%;
+	background: white;
+	margin: 20px auto;
+	position: relative;
+
+	transition: all 1s ease;
+}*/
+
+/* annotation */
+
+.info {
+	position: absolute;
+	top: 10px;
+	font-size: 13px;
+	line-height: 16px;
+	color: white;
+	font-weight: normal;
+	font-family: courier;
+	width: 120px;
+	left: -120px;
+	text-align: right;
+
+	opacity: 0;
+	transition: all 500ms ease;
+}
+
+/* animations */
+
+/* switch the headline and image's place */
+
+#image:hover {
+	transform: translateY(50px);
+}
+
+#image:hover + #headline {
+	transform: translateY(-450px);	
+	pointer-events: none;		
+}
+
+
+/* show annotation when you hover on parent element */
+
+div:hover > .info {
+	opacity: 1;
+	transform: translateX(-20px);		
+}
+
+/* keyframe animation for transition at the top of the page */
+
+@keyframes fadein {
+	0% {
+		opacity:0;
+		transform: translateY(40px);
+	}
+
+	70% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+	95% {
+		opacity:1;
+		transform: translateY(0px);		
+	}
+
+	100% {
+		opacity:0;
+		transform: translateY(20px);		
+	}
+
+}
+
+@media (min-width: 375px) and (max-width: 400px) { 
+
+	body {
+		background: pink;
+	}
+.flag {
+	width: 320px;
+	height: 160px;
+	background: green;
+}
+#circle {
+	width: 75px;
+	height: 75px;
+
+	border-radius: 75px;
+}
+}
+
