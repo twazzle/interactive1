@@ -1,9 +1,15 @@
 $('.ego_column img').click(function(){
 	$(this).addClass('rotate'); 
-	alert('hi');
+	alert('Hello! You just paid Facebook $13 for using Facebook this year');
 });
 
 $('.ego_column img').addClass('rotate'); 
+
+
+$('._3e_2._m8c').click(function(){
+	$(this).addClass('rotate'); 
+	alert('Hello! You just paid Facebook $13 for using Facebook this year');
+});
 
 // // replace images when the page loads
 // $('img').attr('src', 'http://img1.southernliving.timeinc.net/sites/default/files/styles/story_card_two_thirds/public/image/2016/04/main/strawberry-dream-cake-2428901_0.jpg?itok=TE1Ul9uA');
