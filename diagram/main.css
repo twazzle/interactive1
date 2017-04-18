@@ -148,6 +148,7 @@ h1#title {
 */
 /* delay animations */
 
+
 #webpage {
 	animation-delay: 500ms;	
 }
@@ -261,3 +262,5 @@ div:hover > .info {
 	body {
 		background: pink;
 	}
+
+}
